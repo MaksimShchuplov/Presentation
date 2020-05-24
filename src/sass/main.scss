@@ -31,17 +31,21 @@
   list-style: none;
 }
 
+.reveal section .wrapper img {
+  border-color: white;
+}
+
 .reveal section .wrapper-1 img {
   border-radius: 50%;
   border-color: white;
 }
 
-section > .wrapper > .header > h4 {
+section > .wrapper > .header {
   border-bottom: 1px solid black;
   padding-bottom: 15px;
 }
 
-.reveal section .wrapper img {
+.reveal section .wrapper .image_RSS img {
   position: absolute;
   right: 0;
   top: 0;
@@ -52,13 +56,39 @@ section > .wrapper > .header > h4 {
 }
 
 section > .wrapper > .header {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
+.agile {
+  width: 70%;
+}
 
+.img-slide-5 > img {
+  width: 70%;
+}
 
+.img-slide-6 > img {
+  width: 20%;
+  position: absolute;
+  right: 10%;
+}
 
+.slide-7-section {
+  display: flex;
+  align-items: center;
+}
 
+.slide-7-section .SD_cycle {
+  width: 33%;
+}
+
+.slide-7-section .main {
+  width: 67%;
+}
+
+.SD_cycle img {
+  border-radius: 50%;
+}
 
 .title {
   color: black;
