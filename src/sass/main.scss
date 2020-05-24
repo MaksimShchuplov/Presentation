@@ -63,6 +63,10 @@ section > .wrapper > .header {
   width: 70%;
 }
 
+.img-slide-2 > img {
+  width: 40%;
+}
+
 .img-slide-5 > img {
   width: 70%;
 }
@@ -90,8 +94,22 @@ section > .wrapper > .header {
   border-radius: 50%;
 }
 
-.title {
-  color: black;
-  top: 150px;
-  position: relative;
+.img-slide-8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .github {
+   width: 15%;
+   border-radius: 50%;
+ }
+
+.bitbucket,
+.gitlab {
+  width: 30%;
+}
+
+.reveal section .img-slide-10 img {
+  border-color: white;
+  width: 50%;
 }

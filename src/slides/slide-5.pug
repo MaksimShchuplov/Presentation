@@ -11,4 +11,9 @@ section
       .main
         p Continuous integration, deployment, and delivery are three phases of an automated software release pipeline.
         .img-slide-5.fragment.fade-in
-          image(src='images/monkeys.jpg')
+          image(src='images/evolution.jpg')
+      aside.notes
+        | CI vs Continuous Deployment vs Continuous Delivery.
+        | Continuous integration, deployment, and delivery are three phases of an automated software release pipeline. These three phases take software from idea to delivery to the end user. The integration phase is the the first step in the process. Integration covers the process of multiple developers attempting to merge their code changes with the master code repository of a project.
+        | Continuous Delivery is the next extension of continuous integration. The delivery phase is responsible for packaging an artifact together to be delivered to end users. This phase runs automated building tools to generate this artifact. This build phase is kept ‘green,’ which means that the artifact should be ready to deploy to users at any given time.
+        | Usually Continuous Deployment is the final phase of the pipeline.

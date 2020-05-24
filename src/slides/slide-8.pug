@@ -10,6 +10,13 @@ section
     section
       .main
         .img-slide-8.fragment.fade-in
-          image.bitbucket(src='images/bitbucket.jpg')
-          image.github(src='images/github.jpg')
-          image.gitLab(src='images/gitLab.jpg')
+          .bitbucket
+            image(src='images/bitbucket.png')
+          .github
+            image(src='images/github.png')
+          .gitlab
+            image(src='images/gitlab.png')
+      aside.notes
+        | Getting started with continuous integration.
+        | The foundational dependency of CI is a version control system (VCS). If the target code base for a CI install does not have a VCS, step one is installing a VCS. The absence of a VCS should be very unlikely on modern codebases. Git is major VCS.
+        | Once version control is in place, finding a version control hosting platform is the next move. Most modern version control hosting tools have support and features built in for CI. Some popular version control hosting platforms are Bitbucket, Github, and Gitlab.
