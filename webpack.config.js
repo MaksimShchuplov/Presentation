@@ -98,8 +98,9 @@ module.exports = (env) => ({
       ],
     }),
     new HTMLWebpackPlugin({
-      title: "Reveal.js project with Webpack, TypeScript and SASS",
+      title: "Continuous integration",
       filename: 'index.html',
+      favicon: './src/assets/images/favicon.png',
       meta: {
         viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
       },

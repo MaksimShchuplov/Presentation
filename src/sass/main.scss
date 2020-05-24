@@ -1,8 +1,67 @@
 @import '../../node_modules/reveal.js/css/reveal.css';
-@import '../../node_modules/reveal.js/css/theme/serif.css';
+@import '../../node_modules/reveal.js/css/theme/sky.css';
+
+
+.reveal h2 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.slide-0 {
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.wrapper-1 {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-1 .image {
+  width: 20%;
+}
+
+.wrapper-1 .text {
+  width: 80%;
+  font-size: 2rem;
+}
+
+.wrapper-1 .text ul li:first-child {
+  list-style: none;
+}
+
+.reveal section .wrapper-1 img {
+  border-radius: 50%;
+  border-color: white;
+}
+
+section > .wrapper > .header > h4 {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.reveal section .wrapper img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  width: 80px;
+}
+
+section > .wrapper > .header {
+  margin-bottom: 200px;
+}
+
+
+
+
+
 
 .title {
-  color: rgb(22, 21, 21);
+  color: black;
   top: 150px;
   position: relative;
 }

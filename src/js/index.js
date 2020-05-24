@@ -12,7 +12,7 @@ document.body.innerHTML = `<div class="reveal">
 </div>`;
 
 Reveal.initialize({
-  controls: false,
+  controls: true,
   touch: true,
   dependencies: [
     { src: 'plugin/highlight/highlight.js', async: true },
